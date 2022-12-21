@@ -1,0 +1,19 @@
+name = "PyMAPTOF"
+version = "0.0.1"
+authors = [
+  { name="Aly Aly", email="aly.aly@unh.edu" },
+]
+description = "A package made to analyize TOF data from IMAP-Lo. This will include analysis and simulation tools to be used by the IMAP-Lo team during calibrations."
+readme = "README.txt"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
